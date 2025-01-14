@@ -12,6 +12,8 @@ buildscript {
     }
 }
 
+namespace "com.example.auto_orientation"
+
 rootProject.allprojects {
     repositories {
         google()
@@ -22,7 +24,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
 
     defaultConfig {
         minSdkVersion 16
