@@ -12,7 +12,7 @@ buildscript {
     }
 }
 
-namespace "com.example.auto_orientation"
+namespace "de.bytepark.autoorientation"
 
 rootProject.allprojects {
     repositories {
